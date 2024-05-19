@@ -13,6 +13,11 @@
         android:theme="@style/Theme.UTSSS"
         tools:targetApi="31">
         <activity
+            android:name=".AdapterBerita"
+            android:exported="false"
+            android:label="@string/title_activity_adapter_berita"
+            android:theme="@style/Theme.UTSSS" />
+        <activity
             android:name=".BeritaAdapter"
             android:exported="false" />
         <activity

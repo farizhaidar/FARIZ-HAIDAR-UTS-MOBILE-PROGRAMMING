@@ -1,4 +1,4 @@
-package com.example.uts2
+package com.farizz.utsss
 
 data class Data(
     val imageResId: Int,

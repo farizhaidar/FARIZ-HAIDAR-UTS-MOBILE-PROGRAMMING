@@ -7,9 +7,8 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
-import com.example.uts2.NewsData
 
-class NewsAdapter(private val context: Context, private val dataSource: List<NewsData>) : BaseAdapter() {
+class NewsAdapter(private val context: Context, private val dataSource: List<Data>) : BaseAdapter() {
 
     private val inflater: LayoutInflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
 
@@ -32,9 +31,9 @@ class NewsAdapter(private val context: Context, private val dataSource: List<New
         if (convertView == null) {
             view = inflater.inflate(R.layout.berita, parent, false)
             holder = ViewHolder()
-            holder.thumbnailImageView = view.findViewById(R.id.newsImageView) as ImageView
-            holder.titleTextView = view.findViewById(R.id.newsTitleTextView) as TextView
-            holder.descriptionTextView = view.findViewById(R.id.newsDescriptionTextView) as TextView
+            holder.thumbnailImageView = view.findViewById(R.id.imageView) as ImageView
+            holder.titleTextView = view.findViewById(R.id.txtTitle) as TextView
+            holder.descriptionTextView = view.findViewById(R.id.txtDesc) as TextView
             view.tag = holder
         } else {
             view = convertView

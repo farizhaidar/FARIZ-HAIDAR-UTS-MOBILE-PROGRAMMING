@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import android.widget.ListView
 import androidx.fragment.app.Fragment
 
-
 class BeritaFragment : Fragment() {
 
     private lateinit var newsListView: ListView
@@ -24,8 +23,20 @@ class BeritaFragment : Fragment() {
 
         // Dummy data
         val newsList = listOf(
-            
-        )
+            Data(R.drawable.paris, "Orang hilang!", "!!."),
+            Data(R.drawable.paris, "Orang hilang!", "!!."),
+            Data(R.drawable.paris, "Orang hilang!", "!!."),
+            Data(R.drawable.paris, "Orang hilang!", "!!."),
+            Data(R.drawable.paris, "Orang hilang!", "!!."),
+            Data(R.drawable.paris, "Orang hilang!", "!!."),
+            Data(R.drawable.paris, "Orang hilang!", "!!."),
+            Data(R.drawable.paris, "Orang hilang!", "!!."),
+            Data(R.drawable.paris, "Orang hilang!", "!!."),
+            Data(R.drawable.paris, "Orang hilang!", "!!."),
+
+
+
+            )
 
         newsAdapter = NewsAdapter(requireContext(), newsList)
         newsListView.adapter = newsAdapter
