@@ -4,5 +4,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="loremIpsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
     <string name="title_activity_data">Data</string>
+    <string name="titleHome">Selamat Datang di Aplikasi Berita Terkini</string>
+    <string name="textHome">Temukan Berita Terbaru dan Terpercaya di Ujung Jari Anda
+Selamat datang di InstaRizz, aplikasi berita terkini yang dirancang untuk memberikan Anda informasi terbaru dan akurat dari seluruh dunia. Kami memahami betapa pentingnya mendapatkan berita yang cepat, jelas, dan terpercaya, oleh karena itu kami hadir untuk memenuhi kebutuhan Anda akan informasi harian.</string>
     <string name="title_activity_adapter_berita">AdapterBerita</string>
 </resources>

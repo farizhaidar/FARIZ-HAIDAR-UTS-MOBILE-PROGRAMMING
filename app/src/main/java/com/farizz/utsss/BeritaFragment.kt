@@ -23,11 +23,11 @@ class BeritaFragment : Fragment() {
 
         // Dummy data
         val newsList = listOf(
-            Data(R.drawable.paris, "Orang hilang!", "!!."),
-            Data(R.drawable.paris, "Orang hilang!", "!!."),
-            Data(R.drawable.paris, "Orang hilang!", "!!."),
-            Data(R.drawable.paris, "Orang hilang!", "!!."),
-            Data(R.drawable.paris, "Orang hilang!", "!!."),
+            Data(R.drawable.paris, "Orang hilang!", "Temuinn pliss."),
+            Data(R.drawable.somayy, "Somayy!", "Wajib Coba! 5 Siomay Kaki Lima Enak yang Viral di Bekasi"),
+            Data(R.drawable.markmarques, "Mark Marques!", "Mark Marques berhasil menang melawan Ghost Rider!."),
+            Data(R.drawable.jorge, "Jorge Martin", "Jorge Martin memutuskan pensiun setelah melihat pertandingan tidak masuk akal antara Mark Marques dengan Ghost Rider!."),
+            Data(R.drawable.kasur, "Diskriminasi?", "Iuran KRIS untuk orang kaya dan orang miskin beda harga!."),
             Data(R.drawable.paris, "Orang hilang!", "!!."),
             Data(R.drawable.paris, "Orang hilang!", "!!."),
             Data(R.drawable.paris, "Orang hilang!", "!!."),
