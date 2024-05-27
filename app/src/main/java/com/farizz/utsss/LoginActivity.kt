@@ -13,7 +13,7 @@ class LoginActivity : Activity() {
     private var etUsername: EditText? = null
     private var etPassword: EditText? = null
     private var btnLogin: Button? = null
-    private val username = "farizhaidar00@gmail.com"
+    private val username = "admin"
     private val password = "admin"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
